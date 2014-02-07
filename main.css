@@ -39,6 +39,9 @@ html {
   background-size: cover;
 }
 
+#guess {
+    background-color: white;
+}
 
 #container {
     text-align: center;
