@@ -1,6 +1,14 @@
 ﻿$(document).ready(function () {
 
     newGame();
+    
+    $('#guess').keypress(function (event) {
+        if (event.keyCode == 13) {
+            $("#submit").click();
+           
+            return false;
+        } 
+    });
 
     $("#submit").on('click', function () {
 
